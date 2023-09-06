@@ -26,7 +26,7 @@ const page = () => {
         <div className="w-[90%] mt-[50px] mx-auto flex md:flex-row flex-col justify-between items-center">
           <div className="md:w-[40%] w-full">
             <h2 className='text-textcolor md:text-[55px] text-[35px] font-semibold text1'>$pepe</h2>
-            <p className='text-textcolor text-[28px] font-comfortaa'>The most memeable memecoin in
+            <p className='text-textcolor md:text-[28px] text-[23px] md:mt-0 mt-4 font-comfortaa'>The most memeable memecoin in
               existence. The dogs have had their
               day, it’s time for Pepe to take reign.</p>
             <div className="mt-8 flex justify-start space-x-4">

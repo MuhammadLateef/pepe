@@ -43,7 +43,7 @@ Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.`,
 const HowTobuy = () => {
   return (
     <>
-      <div className=" py-5 md:w-[80%] w-[95%] mx-auto">
+      <div className=" py-5 md:w-[80%] w-[90%] mx-auto">
         <div>
           <h2
             className="sm:text-5xl text-3xl text1 md:my-8 my-4 font-evermore py-4 text-[#050C06] text-center"
@@ -73,7 +73,7 @@ const HowTobuy = () => {
                       {items.heading}
                     </h2>
                     <p
-                      className="text-[#050C06] font-Comfortaa text-[19px] md:text-start text-justify leading-[31px]"
+                      className="text-[#050C06] font-Comfortaa md:text-[19px] text-[16px] md:text-start text-justify leading-[31px]"
                       style={{
                         textShadow: `1px -1px 0px rgba(0, 0, 0, 0.50), 1px 1px 0px rgba(0, 0, 0, 0.50), -1px 1px 0px rgba(0, 0, 0, 0.50), -1px -1px 0px rgba(0, 0, 0, 0.50`,
                       }}

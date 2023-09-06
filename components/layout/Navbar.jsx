@@ -53,7 +53,7 @@ const Header = () => {
       <nav className="bg-bgcolor">
         <div className="flex p-5 md:p-10 lg:px-20  justify-between md:border-b-2 border-b-0  border-black items-center self-stretch md:shadow-lg shadow-0 sticky top-0">
           <div className="text-textcolor md:text-[1.5rem] font-bold md:block hidden">
-            <a><Image width={220} height={100} src={logo} className="" alt="img" /></a>
+            <a href="#"><Image width={220} height={100} src={logo} className="" alt="img" /></a>
           </div>
           <div className="md:block hidden">
             <ul className="flex justify-end items-center lg:gap-10 md:gap-4  text-black ">
@@ -70,7 +70,7 @@ const Header = () => {
               })}
               <li>
                 {" "}
-                <a className="rounded-[60px] border-1 py-[11px] text-[12px] cursor-pointer px-[33px] border hover:border-green-900 hover:bg-white hover:text-bgcolor transition duration-300 text1">
+                <a className="rounded-[60px] text-white border-1 py-[11px] text-[12px] cursor-pointer px-[33px] border hover:border-green-900 hover:bg-white hover:text-bgcolor transition duration-300 text1">
                   buynow
                 </a>{" "}
               </li>
@@ -120,7 +120,7 @@ const Header = () => {
               })}
              <li>
                 {" "}
-                <a className="rounded-[60px] mt-8 border-1 py-[6px] text-[12px] cursor-pointer px-[20px] border hover:border-green-900 hover:bg-white hover:text-bgcolor transition duration-300 text1">
+                <a className="rounded-[60px] mt-8 border-1 text-white py-[6px] text-[12px] cursor-pointer px-[20px] border hover:border-green-900 hover:bg-white hover:text-bgcolor transition duration-300 text1">
                   buynow
                 </a>{" "}
               </li>

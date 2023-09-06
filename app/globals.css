@@ -9,14 +9,13 @@
 }
 
 .animate-cls {
-animation: moving infinite 2s;
-/* transition-delay: 10s; */
+  animation: moving infinite 3s linear;
 }
 @keyframes moving {
-  from{
+  0% , 100%{
 rotate: -5deg;
   }
-  to{
+  50%{
 rotate: 5deg;
   }
 }

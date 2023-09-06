@@ -11,15 +11,15 @@ const page = () => {
                         <Image width={100} height={100} className="w-full" src={About} alt="" />
                     </div>
                     <div className="md:w-[40%] w-full">
-                        <h2 className='text-[56px] font-bold text1'>about</h2>
-                        <p className='mt-8 text-[23px] break-words'>Pepe is tired of watching everyone play
+                        <h2 className='md:text-[56px] md:text-start text-center md:mt-0 mt-6 text-[35px] font-bold text1'>about</h2>
+                        <p className='md:mt-8 mt-4 md:text-[23px] text-[18px] break-words'>Pepe is tired of watching everyone play
                             hot potato with the endless derivative
                             ShibaCumGMElonKishuTurboAssFlokiM
                             oon Inu coins. The Inu’s have had their
                             day. It’s time for the most recognizable
                             meme in the world to take his reign as
                             king of the memes.</p>
-                        <p className='pt-4 text-[23px]'>Pepe is here to make memecoins great
+                        <p className='pt-4  md:text-[23px] text-[18px]'>Pepe is here to make memecoins great
                             again. Launched stealth with no
                             presale, zero taxes, LP burnt and
                             contract renounced, $PEPE is a coin for
