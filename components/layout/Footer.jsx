@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // import logofooter from "../../public/Assets/logo.png";
-import logofooter from "../../public/Assets/logo.png"
+import logofooter from "../../public/Assets/logo.png";
 import { PiTelegramLogo } from "react-icons/pi";
 import { BsTwitter } from "react-icons/bs";
 
@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-[85%] mx-auto py-4">
-        <h2
+        {/* <h2
           className="text-[#050C06] font-Evermore leading-[78.4px] md:text-[56px] sm:text-[35px] text-[25px] text-center text1 my-8"
           style={{
             textShadow:
@@ -56,6 +56,32 @@ const Footer = () => {
             financial return. There is no formal team or roadmap. the coin is
             completely useless and for entertainment purposes only.
           </p>
+        </div> */}
+        <div className="lg:w-[80%]  w-[95%] mx-auto py-8 grid md:grid-cols-3 lg:gap-8 md:gap-0 gap-8">
+          <button
+            className="py-4 text-[2rem] lg:px-1 md:px-2 px-4 bg-[#A5F686] lg:mx-2 md:mx-1 hover:scale-105 transition-all ease-in-out delay-150"
+            style={{
+              boxShadow: "10px 5px 5px white",
+            }}
+          >
+            Audit Passed
+          </button>
+          <button
+            className=" py-4 text-[2rem] lg:px-1 bg-[#A5F686] lg:mx-2 md:mx-2 mx-0 hover:scale-105 transition-all ease-in-out delay-150"
+            style={{
+              boxShadow: "10px 5px 5px white",
+            }}
+          >
+            Kyc-Passed
+          </button>
+          <button
+            className=" py-4 text-[2rem] px-4 md:mx-2 bg-[#A5F686] mx-0 hover:scale-105 transition-all ease-in-out delay-150"
+            style={{
+              boxShadow: "10px 5px 5px white",
+            }}
+          >
+            Safu
+          </button>
         </div>
       </div>
     </>

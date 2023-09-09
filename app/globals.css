@@ -29,3 +29,14 @@ rotate: 5deg;
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.iframeclass{
+  border: 0;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    display: block;
+    border-radius: 0px;
+    max-width: 960px;
+    min-width: 300px;
+    overflow: hidden;
+}
